@@ -1,0 +1,6 @@
+.tmp/
+.vs/
+bin/
+logs/
+obj/
+*.*proj.user
