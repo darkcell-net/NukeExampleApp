@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibGit2Sharp" Version="0.25.2" />
     <PackageReference Include="Nuke.Common" Version="0.24.2" />
   </ItemGroup>
 

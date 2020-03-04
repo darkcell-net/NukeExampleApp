@@ -58,8 +58,8 @@ namespace Build.Targets
             .DependsOn(Compile)
             .Executes(() => DotNetTest(
                 settings => settings
-                .SetProjectFile(Settings.TestDirectory / "Tests")
-                .EnableNoBuild()));
+                    .SetProjectFile(Settings.TestDirectory / "Tests")
+                    .EnableNoBuild()));
 
         private GlobalSettings Settings => _globalSettings = _globalSettings ?? new GlobalSettings(RootDirectory);
 
